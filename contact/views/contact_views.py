@@ -19,3 +19,4 @@ def contact(request, contact_id):
     }
 
     return render(request, 'contact/contact.html', context)
+
